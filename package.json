@@ -1,0 +1,33 @@
+{
+  "name": "fundamentals",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/samudraarq/node_fundamentals#readme",
+  "bugs": {
+    "url": "https://github.com/samudraarq/node_fundamentals/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samudraarq/node_fundamentals.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node --env-file=.env index.js",
+    "dev": "node --watch --env-file=.env index.js",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "dayjs": "^1.11.23"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "typescript": "^7.0.2"
+  },
+  "engines": {
+    "node": ">=26"
+  }
+}
